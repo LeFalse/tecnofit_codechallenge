@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/var/www/tecnofit-ranking/src/phpunit.xml" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="0.088901">
+    <testsuite name="Unit" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="0.088901">
+      <testsuite name="Tests\Unit\UseCases\GetMovementRankingTest" file="/var/www/tecnofit-ranking/src/tests/Unit/UseCases/GetMovementRankingTest.php" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="0.088901">
+        <testsuite name="Tests\Unit\UseCases\GetMovementRankingTest::test_processRanking_returns_correct_ranking" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.077877">
+          <testcase name="test_processRanking_returns_correct_ranking with data set &quot;unique values&quot;" file="/var/www/tecnofit-ranking/src/tests/Unit/UseCases/GetMovementRankingTest.php" line="26" class="Tests\Unit\UseCases\GetMovementRankingTest" classname="Tests.Unit.UseCases.GetMovementRankingTest" assertions="1" time="0.066567"/>
+          <testcase name="test_processRanking_returns_correct_ranking with data set &quot;tie values&quot;" file="/var/www/tecnofit-ranking/src/tests/Unit/UseCases/GetMovementRankingTest.php" line="26" class="Tests\Unit\UseCases\GetMovementRankingTest" classname="Tests.Unit.UseCases.GetMovementRankingTest" assertions="1" time="0.011311"/>
+        </testsuite>
+        <testcase name="test_execute_throws_exception_when_movement_not_found" file="/var/www/tecnofit-ranking/src/tests/Unit/UseCases/GetMovementRankingTest.php" line="43" class="Tests\Unit\UseCases\GetMovementRankingTest" classname="Tests.Unit.UseCases.GetMovementRankingTest" assertions="2" time="0.011023"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
