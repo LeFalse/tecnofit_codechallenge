@@ -97,7 +97,7 @@ Após iniciar os containers e instalar as dependências, é necessário configur
 Dentro do container da aplicação, execute as migrations e seeders do Laravel:
 
 ```bash
-docker-compose exec app
+docker-compose exec app bash
 php artisan migrate --seed
 ```
 
