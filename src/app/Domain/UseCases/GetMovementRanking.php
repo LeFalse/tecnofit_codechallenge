@@ -31,7 +31,7 @@ readonly class GetMovementRanking
      */
     public function processRanking(Movement $movement): array
     {
-        $ranking = $movement->personalRecords
+        $ranking = collect($movement->personalRecords)
             ->groupBy('max_value')
             ->sortKeysDesc()
             ->values()

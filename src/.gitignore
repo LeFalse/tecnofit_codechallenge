@@ -5,7 +5,7 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+#.env Comentado para facilitar depuração do código
 .env.backup
 .env.production
 .phpactor.json
