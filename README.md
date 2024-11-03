@@ -23,6 +23,9 @@
 
 Este projeto é um desafio de codificação da **Tecnofit**, desenvolvido como parte de um processo seletivo. Ele consiste em uma API REST construída com Laravel que fornece o ranking de movimentos específicos com base nos recordes pessoais dos usuários.
 
+[Coding Challenge - Tecnofit.pdf](https://github.com/user-attachments/files/17611642/Coding.Challenge.-.Tecnofit.1.pdf)
+
+
 ## Tecnologias Utilizadas
 
 - **Docker** 24.0.2: Containerização da aplicação.
